@@ -8,7 +8,7 @@ ENV TESTENV teststring
 RUN apt-get -y update && \
     apt-get -y install curl && \
     curl -H 'Cache-Control: no-cache' \
-        https://raw.githubusercontent.com/paulbsch/image-common/master/install-nimbix.sh \
+        https://raw.githubusercontent.com/nimbix/image-common/master/install-nimbix.sh \
         | bash -s -- --setup-nimbix-desktop
 
 #RUN dpkg-divert --local --rename --add /sbin/initctl
