@@ -1,7 +1,7 @@
 #FROM ppc64le/ubuntu:xenial
 #FROM nimbix/ubuntu-base
-FROM nimbix/ubuntu-base:xenial
-#FROM ubuntu:trusty
+#FROM nimbix/ubuntu-base:xenial
+FROM ubuntu:xenial
 #
 
 ENV TESTENV teststring
